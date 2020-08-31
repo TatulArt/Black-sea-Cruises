@@ -1,0 +1,377 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body * {
+  font-family: 'Roboto Slab', serif;
+  font-weight: normal;
+}
+
+button {
+  font-weight: normal;
+  font-size: 14px;
+  border: none;
+  background-color: inherit;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+select {
+  border: none;
+  background-color: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+section {
+  background-color: rgb(243, 243, 243);
+}
+
+/* Мэйн правила всё */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px;
+  position: absolute;
+  width: 86%;
+}
+
+.site-navigation-item {
+  margin-right: 35px;
+}
+
+.site-navigation-item:last-child {
+  margin-right: 0;
+}
+
+.user-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-navigation-item {
+  margin-right: 20px;
+}
+
+.user-navigation-item:last-child {
+  margin-right: 0;
+}
+
+.telephone-number {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.decoration-line-container {
+  position: absolute;
+  width: 100%;
+  top: 450px;
+}
+
+/* Хедер всё */
+
+.site-head {
+  background-image: url("img/main-photo.png");
+  background-position: right;
+  text-align: center;
+  height: 546px;
+  padding-top: 100px;
+}
+
+.head-title-1 {
+  font-size: 36px;
+}
+
+.head-title-2 {
+  font-size: 100px;
+  text-transform: uppercase;
+}
+
+.head-choose-btn {
+  padding: 15px 45px;
+  background-color: rgba(51, 199, 253, 1);
+  color: white;
+  margin-top: 30px;
+}
+
+/* Шапка всё */
+
+.cruise-catalog {
+  padding-top: 115px;
+}
+
+.catalog-title-container {
+  width: auto;
+  text-align: center;
+}
+
+.catalog-title {
+  font-size: 36px;
+}
+
+.cruise-list-container {
+  display: flex;
+  justify-content: center;
+}
+
+.cruise-list {
+  height: 980px;
+  width: 1150px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.cruise-list-item {
+  margin-bottom: 45px;
+  background-color: white;
+  position: relative;
+  width: 555px;
+}
+
+.cruise-item-caption {
+  padding: 25px;
+}
+
+.cruise-item-title {
+  display: inline-block;
+  margin-right: 10px;
+  color: rgba(51, 199, 253, 1);
+  padding-bottom: 10px;
+}
+
+.cruise-price {
+  padding-top: 10px;
+}
+
+.cruise-more {
+  padding-bottom: 2px;
+}
+
+.catalog-more-btn {
+  background-color: rgba(51, 199, 253, 1);
+  padding: 15px 35px;
+  color: white;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.catalog-more-icon {
+  margin-left: 10px;
+}
+
+.cruise-price {
+  display: inline;
+}
+
+.previous-price {
+  color: grey;
+  text-decoration: line-through;
+  margin-left: 15px;
+}
+
+.normal-item {
+  margin-left: 20px;
+}
+
+.big-item {
+  margin-right: 20px;
+}
+
+.cruise-list-item:nth-child(2) {
+  margin-right: 20px;
+  margin-left: 0;
+}
+
+.bestseller-mark-container {
+  position: absolute;
+  top: -5px;
+  right: 120px;
+}
+
+.bestseller-mark {
+  position: relative;
+}
+
+.bestseller-mark-image {
+  position: absolute;
+}
+
+.bestseller-mark-text {
+  position: absolute;
+  text-align: center;
+  left: 13px;
+  top: 20px;
+  color: white;
+}
+
+.stock-mark-container {
+  position: absolute;
+  top: -5px;
+  right: 120px;
+}
+
+.stock-mark {
+  position: relative;
+}
+
+.stock-mark-image {
+  position: absolute;
+}
+
+.stock-mark-text {
+  position: absolute;
+  text-align: center;
+  left: 16px;
+  top: 35px;
+  color: white;
+}
+
+/* Каталог всё */
+
+.cruise-photos {
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+
+.photos-title {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.photos-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Фотографии всё */
+
+.comments {
+  padding-bottom: 60px;
+}
+
+.comments-title {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+}
+
+.comments-list-container {
+  display: flex;
+  justify-content: center;
+}
+
+.comments-list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  width: 1140px;
+}
+
+.comments-list-item {
+  width: 360px;
+  background-color: white;
+  margin-right: 30px;
+}
+
+.comments-list-item:last-child {
+  margin-right: 0;
+}
+
+.user-caption {
+  padding: 25px 40px 40px 40px;
+}
+
+.user-name {
+  color: #00a2dd;
+  margin-bottom: 10px;
+}
+
+.user-cruise {
+  display: block;
+  color: #8699a8;
+  margin-bottom: 10px;
+}
+
+.comments-more-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.comments-more-btn {
+  background-color: #33c7fd;
+  color: white;
+  padding: 20px 45px;
+}
+
+/* Отзывы всё */
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 130px;
+  padding: 0 120px;
+}
+
+.site-footer * {
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer-information-link {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.footer-information-link:last-child {
+  margin-bottom: 0;
+}
+
+.footer-contacts {
+  width: 150px;
+}
+
+.contacts-link-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.footer-contacts-link-container {
+  border-radius: 50%;
+  background-color: #0d3351;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number-caption {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Футер всё */
